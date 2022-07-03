@@ -32,3 +32,4 @@ print("xyz" in d)
 for index,key in enumerate(d):
     print(index,key,d[key])
 #since we already deleted one
+
