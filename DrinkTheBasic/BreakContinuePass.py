@@ -11,9 +11,6 @@ def BreakTest(arr):
         print(i)
     print("END OF BREAKTEST METHOD")
 
-arr = [1,3,4,5,7,9,15]
-BreakTest(arr)
-
 def ContinueTest(arr):
     for i in arr:
         if i == 5:
@@ -26,7 +23,10 @@ def PassTest(arr):
         if(i == 5):
             pass
         print(i)
+    print("END OF PASS METHOD")
 
+arr = [1,3,4,5,7,9,15]
+PassTest(arr)
 
 
 
