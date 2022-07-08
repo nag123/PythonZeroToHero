@@ -46,4 +46,3 @@ elif(num1 < 10):
     print("Hey Rocky, Thats ok sometimes we assume the number is lesser than required", num1)
 else:
     print("number is lesser", num1)
-
