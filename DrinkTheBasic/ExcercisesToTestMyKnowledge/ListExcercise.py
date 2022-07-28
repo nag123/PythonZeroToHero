@@ -19,3 +19,8 @@ if __name__ == '__main__':
 #Use the correct syntax to print the number of items in the list.
     fruits = ["apple", "banana", "cherry"]
     print(len(fruits))
+
+    s = "HHHHHHHHHHHHHHHHHHHHHHHHH"
+    print(len(s))
+    s = "  HHHHH   " #3rd position
+    print(s.index("H"))
