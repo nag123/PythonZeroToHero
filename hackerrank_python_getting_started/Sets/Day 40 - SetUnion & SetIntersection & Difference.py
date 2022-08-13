@@ -5,8 +5,11 @@ if __name__ == '__main__':
     BteamValues = ([int(i) for i in input().split(' ')])
     AteamValuesasSet = set(AteamValues)
     BteamValuesasSet= set(BteamValues)
-    #print(len(AteamValuesasSet.union(BteamValuesasSet)))
+    #Set Union code
+    # print(len(AteamValuesasSet.union(BteamValuesasSet)))
+    #Set intersection code
     #print(len(AteamValuesasSet.intersection(BteamValuesasSet)))
+    #setDifference code
     print(len(AteamValuesasSet.difference(BteamValuesasSet)))
 
 
